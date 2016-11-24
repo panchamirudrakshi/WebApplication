@@ -1,0 +1,599 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>UTD PIZZA</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pizza Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="slider.css">
+<!--js-->
+<style>
+.ccc{
+color:#000000;}</style>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   <!-- //js -->
+<script>
+	$(document).ready(function () {
+	    size_li = $("#myList li").size();
+	    x=1;
+	    $('#myList li:lt('+x+')').show();
+	    $('#loadMore').click(function () {
+	        x= (x+1 <= size_li) ? x+1 : size_li;
+	        $('#myList li:lt('+x+')').show();
+	    });
+	    $('#showLess').click(function () {
+	        x=(x-1<0) ? 1 : x-1;
+	        $('#myList li').not(':lt('+x+')').hide();
+	    });
+	});
+</script>
+</head>
+<body>
+
+
+	<!--banner-->			
+				
+		<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+     
+    </div>
+   
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="src/AdminSignUp.html"><span class="glyphicon glyphicon-user"></span> &nbsp;&nbsp;Admin Sign Up</a></li>	    
+	   <li><a href="src/AdminLogin.html"><span class="glyphicon glyphicon-log-in"></span>&nbsp;&nbsp;&nbsp;Admin Login</a></li>
+	    <li><a href="src/usersign.html"><span class="glyphicon glyphicon-user"></span> &nbsp;&nbsp;User Sign Up</a></li>
+      <li><a href="src/userlogin.html"><span class="glyphicon glyphicon-log-in"></span> &nbsp;&nbsp;User Login</a></li>
+    </ul>
+  </div>
+</nav>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="images/title.png">
+  			<div class="top-nav">
+				<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-center cl-effect-14">
+								<li><a href="index.html" class="active">Home</a></li>			
+								<li><a href="veggie.html">Pizza</a></li>												
+								<li><a href="drink.html">Drinks</a></li>		
+								<li><a href="dessert.html">Desserts</a></li>		
+								<li><a href="gallery.html">Gallery</a></li>		
+							</ul>
+							<div class="clearfix"> </div>
+						</div>	
+					</nav>		
+			  </div>	
+				<!--navigation-->
+				<div id="cont">
+       
+               <img src="img/left-arrow.png" alt="Prev" id="prev">
+               <div id="slider">
+                    <div class="slide">
+                         <div class="slide-copy">
+                              
+                              <p>Cheese Garden</p></div>
+                         <img src="images/03.jpg">
+                    </div>
+                    <div class="slide">
+                         <div class="slide-copy">
+                             
+                               <p>Hawaiian Chicken </p></div>
+                         <img src="images/01.jpg">
+                    </div>
+                    <div class="slide">
+                         <div class="slide-copy">
+                             
+                               <p>Veggie Lover</p> </div>
+                         <img src="images/05.jpg">
+                    </div>
+                    <div class="slide">
+                         <div class="slide-copy">
+                              
+                               <p>Image 4</p> </div>
+                         <img src="images/02.jpg">
+                    </div>
+					        
+               </div>
+               <div class="numbers" id = "pageno">
+<button id="1">1</button>&nbsp;
+<button id="2">2</button>&nbsp;
+<button id="3">3</button>&nbsp;
+<button id="4">4</button>&nbsp;
+
+  </div></div>
+
+               <img src="img/right-arrow.png" alt="Next" id="next">
+			
+	<!--//banner-->
+	<!--banner-bottom-->
+<!--//welcome-->
+<!--//banner-bottom-->
+	<!--services-->
+	<div class="services">
+		<div class="container">
+			<h3 class="title">Services</h3>
+			<div class="servc-grids">
+				<div class="col-md-3 servc-grid">
+					<div class="servc-icon hi-icon-effect-8">
+						<a href="#" class="hi-icon hi-icon-archive">
+						<span class="glyphicon glyphicon glyphicon-user" aria-hidden="true"></span>
+						</a>
+					</div>
+					<h4>Awardee</h4>
+					<p>By Chris Finley, CSR and Internal Brand Experience UTD PIZZA prides itself on being a company with a huge heart that lives Life Unboxed. </p>
+				</div>
+				<div class="col-md-3 servc-grid">
+					<div class="servc-icon hi-icon-effect-8">
+						<a href="#" class="hi-icon hi-icon-archive"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span></a>
+					</div>
+					<h4>Location </h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.470720372088!2d-96.8029964848125!3d32.991363180907776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c23d0e5b05eed%3A0x1cbce35594f5ec02!2s17580+Preston+Rd%2C+Dallas%2C+TX+75252!5e0!3m2!1sen!2sus!4v1459900220880" width="180" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+				<div class="col-md-3 servc-grid">
+					<div class="servc-icon hi-icon-effect-8">
+						<a href="#" class="hi-icon hi-icon-archive"><span class="glyphicon glyphicon glyphicon-fire" aria-hidden="true"></span></a>
+					</div>
+					<h4>Gluten-Free Pizza </h4>
+					<p>Gluten-Free Pizza is offered in over 2,800 Pizza Hut restaurants nationwide, and we plan to continue to roll it out across the nation based on consumer demand. </p>
+				</div>
+				<div class="col-md-3 servc-grid">
+					<div class="servc-icon hi-icon-effect-8">
+						<a href="#" class="hi-icon hi-icon-archive"><span class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span></a>
+					</div>
+					<h4>Address</h4>
+					<p>17580 Preston Rd</br>
+					Dallas, TX 75252</br>
+					(972)713-9696</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//services-->
+	<!--menu-->
+
+	<center>	
+  <table width="817" border="10" align="center" cellpadding="10" cellpadding="10">
+ 
+    <tr>
+      <td colspan="6">SEARCH BY KEYWORD / CATEGORY : </td>
+    </tr>
+    <tr>
+        
+      <td width="91"> Keyword</td>
+     <form id="form1" method="GET" action="search1.php"> 
+	 <td width="171">
+	 <input name="search" type="text" id="search" size="25" />
+	 </td>
+	  <td width="237" class="ccc"> 
+	  <input type = "submit" name="submit" value="search" />
+	  </td>
+	  </form>
+      <td width="90">Category</td>
+     <form action="src/searchcat.php" method="post">
+	  <td width="110" class="ccc">   
+<select name="options">
+<option value="type">type</option>
+<option value="pizza">pizza</option>
+<option value="dessert">dessert</option>
+<option value="drink">drink</option>
+</select>
+</td>
+<td width="92" class="ccc">
+<input type="submit" name="submit" value="Search" />
+</td>
+</form> 
+    </tr>
+  </table>
+	</center>
+	<div class="menu">
+		<div class="container">
+			<div class="menu-tag">
+				<h3 class="title">The Menu</h3>
+
+			</div>
+			<div class="load_more">	
+				<ul id="myList">
+					<li>
+						<div class="l_g">
+							<div class="l_g_r">
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>SUPREME</h4>
+											<h6>Classic marinara sauce, pepperoni, seasoned pork, beef, mushrooms, bell peppers</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$ 50</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>PRIMO MEATS</h4>
+											<h6>Chicken, mozzarella cheese, onions.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$62</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>ITALIAN MEATBALL</h4>
+											<h6>Classic marinara sauce, classic meatballs, fresh red onions and diced Roma tomatoes.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$25</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									
+								</div>
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>CHICKEN-BACON PARMESAN</h4>
+											<h6>Creamy garlic Parmesan sauce, grilled chicken, hardwood smoked bacon and diced Roma tomatoes</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$50</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>BACKYARD BBQ CHICKEN</h4>
+											<h6>Barbeque sauce, grilled chicken, hardwood smoked bacon and fresh red onions</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$62</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>ULTIMATE CHEESE LOVER'S</h4>
+											<h6>Creamy garlic Parmesan sauce topped with mozzarella cheese</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$25</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									
+								</div>
+								<div class="clearfix"> </div>
+							</div> 
+						</div>	
+					</li>
+					<li><div class="l_g">
+							<div class="l_g_r g_r">
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>FIVE PEPPER PEPPERONI</h4>
+											<h6>Premium crushed tomato sauce, pepperoni, sliced jalapeño peppers, Peruvian cherry peppers, sliced banana peppers </h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$50</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>BUFFALO CHICKEN</h4>
+											<h6>Buffalo sauce, grilled chicken, sliced banana peppers and fresh red onions—flavored up with toasted cheddar on the crust edge</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$62</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>PREMIUM GARDEN VEGGIE</h4>
+											<h6>Premium crushed tomato sauce, fresh green peppers, fresh red onions, fresh mushrooms, diced Roma tomatoes</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$25</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									
+								</div>
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>CHICKEN SUPREME PIZZA</h4>
+											<h6>Great combination of premium 100% all-white meat chicken, fresh white mushrooms, sweet red onions, and crisp green peppers.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"></span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$50</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>MEAT LOVER'S</h4>
+											<h6>Classic marinara sauce, authentic old-world pepperoni, all-natural Italian sausage, slow-roasted ham, hardwood smoked bacon</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$62</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Tomato Stuffed Pizza</h4>
+											<h6>Cheese, tomato, onions</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$25</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</li>
+					<li><div class="l_g">
+							<div class="l_g_r g_r">
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>VEGGIE LOVER'S</h4>
+											<h6>Classic marinara sauce, vine-ripened tomatoes, fresh mushrooms, fresh red onions</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$30</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>FIVE PEPPER PEPPERONI</h4>
+											<h6>Premium crushed tomato sauce, pepperoni, sliced jalapeño peppers, Peruvian cherry peppers, sliced banana peppers </h6>
+										
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$30</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									
+									
+								</div>
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>BBQ BACON CHEESEBURGER</h4>
+											<h6>Barbeque sauce topped with classic beef, hardwood smoked bacon, fresh red onions and diced Roma tomatoes</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$30</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>HAWAIIAN CHICKEN</h4>
+											<h6>Classic marinara sauce topped with grilled chicken, slow-roasted ham, sweet pineapple and fresh green bell peppers.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>$30</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+						</div>	
+					</li>
+				</ul>
+				<div id="loadMore">Load more</div>
+				<div id="showLess">Show less</div>
+			</div>
+		</div>
+	</div>
+	<!--//menu-->
+	<!-- testimonial -->
+	<div class="testimonial">
+		<!-- container -->
+		<div class="container">
+			<h3 class="title">Feedback About us</h3>
+			<!-- banner-text Slider starts Here -->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+				// You can also use "$(window).load(function() {"
+					$(function () {
+					// Slideshow 4
+						$("#slider3").responsiveSlides({
+						auto: true,
+						pager:true,
+						nav:false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});	
+				});
+			</script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="testimonial-grids">
+							<div class="testimonial-left">
+								<img src="images/t1.jpg" alt="" />
+							</div>
+							<div class="testimonial-right">
+								<h5>Jayram</h5>
+								<p><span>"</span> Heavenly Cheese <span>"</span>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonial-grids">
+							<div class="testimonial-left">
+								<img src="images/t3.jpg" alt="" />
+							</div>
+							<div class="testimonial-right">
+								<h5>Vasan Bilgiri</h5>
+								<p><span>"</span> Delightfull <span>"</span>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonial-grids">
+							<div class="testimonial-left">
+								<img src="images/t2.jpg" alt="" />
+							</div>
+							<div class="testimonial-right">
+								<h5>Jeevan Ishwara</h5>
+								<p><span>"</span> Yummy pizzas <span>"</span>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //testimonial -->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-3 footer-left">
+				<h4>Address</h4>
+				<ul>
+					<li>17580 Preston Rd</li>
+					<li>Dallas, TX 75252</li>
+					<li>(972)713-9696</li>
+				</ul>					
+			</div>
+			<div class="col-md-3 footer-left">
+				<h4>Popular</h4>
+				<ul>
+					<li><a href="#">ITALIAN MEATBALL</a></li>
+					<li><a href="#">VEGGIE LOVER'S</a></li>
+					<li><a href="#">FIVE PEPPER PEPPERONI</a></li>
+					<li><a href="#">GLUTEN-FREE CHEESE PIZZA</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-left">
+				<h4>Details</h4>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>		
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-right">
+				<p>©UTDPizza|All rights reserved</p>
+				<div class="icons">
+				<ul>
+					<li><a href="https://twitter.com/nepapizzareview" class="twitter"> </a></li>
+					<li><a href="https://www.facebook.com/Dominos" class="twitter facebook"> </a></li>
+					<li><a href="https://www.linkedin.com/company/pizza-hut" class="twitter linkedin"> </a></li>
+				</ul>
+			</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
