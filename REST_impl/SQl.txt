@@ -1,0 +1,25 @@
+create database test;
+use test;
+create table Book (
+	
+	BookId INT NOT NULL AUTO_INCREMENT,
+	title VARCHAR(20),
+	year INT,
+	price VARCHAR(5),
+    category VARCHAR(10),
+    primary key(BookId)
+	);
+    
+INSERT INTO Book
+VALUES (1,'Everyday Italian',2005,30.00,'cooking');
+
+INSERT INTO Book
+VALUES (2,'Harry Potter',2005,29.99,'children');
+
+INSERT INTO Book
+VALUES (3,'XQuery Kick Start',2003,49.99,'web');
+
+INSERT INTO Book
+VALUES (4,'Learning XML',2003,39.95,'web');
+
+select * from book;
