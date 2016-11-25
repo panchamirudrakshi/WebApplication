@@ -1,4 +1,4 @@
 @author: Panchami Rudrakshi
-Date: February 5, 2016, 11:59 PM
+Date: February 5, 2016
 
 Personal homepage with bootstrap
