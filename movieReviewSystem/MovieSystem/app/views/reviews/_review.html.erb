@@ -1,0 +1,12 @@
+<div class="divreview">
+ <span class="label">Reviewer: </span>
+    <%= review.reviewer %>
+    <div class="divfloatright">
+    <%= link_to 'Delete', [review.movie, review],
+               method: :delete,
+               data: { confirm: 'Are you sure, you want to delete the review?' } %>
+             </div>
+  </br>
+<span class="label">Comment: </span>
+    <%= review.comment %>
+  </div>

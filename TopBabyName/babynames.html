@@ -1,0 +1,64 @@
+//@author : Panchami Rudrakshi
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body bgcolor="#33CCFF">
+<h1> POPULAR BABY NAMES </h1>
+<script src="babynames.js" ></script>
+<script>
+function names(){
+var str= document.getElementById("year").value;
+if (str==""){
+document.getElementById("mydiv").innerHTML="";
+ return;
+ }
+ if (window.XMLHttpRequest){
+ xmlhttp=new XMLHttpRequest();
+ }
+else{
+ xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+ }
+ xmlhttp.open("GET","babynames.php?year="+str,true);
+ xmlhttp.send();
+ xmlhttp.onreadystatechange=handleServerResponse;
+function handleServerResponse()
+ {
+if (xmlhttp.readyState==4){
+  if(xmlhttp.status==200){
+     document.getElementById("mydiv").innerHTML=xmlhttp.responseText;
+   }
+   else{
+	 alert('problem');
+	 }
+ }
+}
+}
+</script>
+<form method="GET">
+
+<p><b>Year:</b></p>
+  <select id="year" name="year">
+  <option value="2004">2004</option>
+  <option value="2005">2005</option>
+  <option value="2006">2006</option>
+  <option value="2007">2007</option>
+  <option value="2008">2008</option>
+  <option value="2009">2009</option>
+  <option value="2010">2010</option>
+  <option value="2011">2011</option>
+  <option value="2012">2012</option>
+  <option value="2013">2013</option>
+</select>
+   <button type="button"  onclick="names()" > Submit</button>
+</div>
+<div id="mydiv" >
+</div>
+</div>
+<div style="float: left; width: 200px;">
+</div>
+</div>
+</form>
+</body>
+</html>

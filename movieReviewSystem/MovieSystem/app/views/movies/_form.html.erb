@@ -1,0 +1,47 @@
+<%= stylesheet_link_tag "default" %>
+<div class="container">
+  <h1 class="header">Movie Maintenance</h1>
+  <div class="divfloatright"><%= link_to 'Back', movies_path %></div>
+<%= form_for @movie do |f| %>
+<% if @movie.errors.any? %>
+    <div id="error_explanation">
+      <h2>
+        <%= pluralize(@movie.errors.count, "error") %> prohibited
+        this movie from being saved:
+      </h2>
+      <ul>
+        <% @movie.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <p>
+    <strong><%= f.label :title, "Movie Title" %></strong><br>
+    <%= f.text_field :title %>
+  </p>
+
+   <p>
+   <strong><%= f.label :Year, "Released Year" %></strong><br>
+   <%= f.text_field :year %>
+   </p>
+
+   <p>
+   <strong><%= f.label :imdb_rating, "IMDB Rating" %></strong><br>
+   <%= f.text_field :rating %>
+   </p>
+
+
+ 
+  <p>
+    <strong><%= f.label :Description %></strong><br>
+    <%= f.text_area :description %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+</div>

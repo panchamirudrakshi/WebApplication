@@ -1,0 +1,35 @@
+<%= stylesheet_link_tag "default" %>
+<div class="container">
+  <h1 class="header">Movie List</h1>
+<div class="newmovie">
+  <%= link_to 'New Movie', new_movie_path %>
+</div>
+ 
+  <% @movies.each do |movie| %>
+    <div class="divmovieitem">
+          <div class="divimage">
+            <%= image_tag "#{movie.id}.jpeg" %>
+          </div>
+          <div class="divmovie">
+            <div class="editdelete">
+            <%= link_to 'Edit', edit_movie_path(movie) %> |
+            <%= link_to 'Delete', movie_path(movie),
+              method: :delete,
+              data: { confirm: 'Are you sure, you want to delete the movie from the system?' } %>
+            </div>
+            <h2><%= link_to "#{movie.title}", movie_path(movie) %></h2>
+            <span class="label">Released Year: </span><%= movie.year %> |
+            <span class="label">IMDB Rating: </span><%= movie.rating %>
+          </div>
+          <div class="clear"></div>
+    </div>   
+  <% end %>
+</div>
+
+
+  
+   
+ 
+
+
+

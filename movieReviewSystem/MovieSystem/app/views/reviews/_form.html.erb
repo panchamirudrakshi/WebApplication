@@ -1,0 +1,24 @@
+<%= form_for([@movie, @movie.reviews.build]) do |f| %>
+<div>
+  <% if @review && @review.errors.any? %>
+      <div id="error_explanation">        
+        <ul>
+          <% @review.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+          <% end %>
+        </ul>
+      </div>
+  <% end %>
+</div>
+  <p>
+    <%= f.label :Reviewer %><br>
+    <%= f.text_field :reviewer %>
+  </p>
+  <p>
+    <%= f.label :Comment %><br>
+    <%= f.text_area :comment %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

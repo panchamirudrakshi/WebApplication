@@ -1,0 +1,128 @@
+body
+{
+	margin:0;
+	font-family: Arial, Helmet, Freesans, sans-serif;
+	background-color: #f2f7ff;
+	color:#13508D;
+	font-size: 1.1em;
+}
+
+a{
+	text-decoration: none;
+	color: #314b78;
+	font-weight: 800;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+textarea
+{
+	width: 900px;
+	height:80px;
+}
+
+input[type="text"]
+{
+	width: 220px;
+}
+
+#error_explanation ul
+{
+	color: red;
+}
+
+.container
+{
+	 width:1000px;
+     margin: 0px auto;    
+}
+
+.header
+{
+	padding: 10px 15px 10px 400px;
+    background-color: #255379;
+    border: 1px solid #cecece;
+    color: white;
+
+}
+
+.newmovie
+{
+	float: right;
+}
+
+.divmovieitem
+{
+	padding: 15px 0;
+}
+
+.divimage
+{
+	float: left;    
+}
+
+.divimage img
+{
+	width: 136px;
+    height: 170px;
+}
+
+.divshowimage img
+{
+	width: 1000px;
+    height: 400px;
+}
+
+.divmovie
+{
+	padding-left: 151px;
+}
+
+.divmovie p
+{
+	margin-bottom: 10px!important;
+    padding-top: 10px;
+}
+
+.editdelete
+{
+	float: right;
+	padding-top: 10px;
+}
+.divyear
+{
+	float: left;
+}
+.divfloatright
+{
+	float:right;
+}
+.clear{
+	clear:both;
+}
+.label
+{
+	font-weight:bold;	
+}
+#divreviews
+{
+	border-top: solid 1px #24476A;
+	font-size: 0.9em;
+}
+#description
+{
+	padding-bottom: 15px;
+}
+.divreview
+{
+	border-top: dotted 1px #24476A;
+	border-bottom: dotted 1px #24476A;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.clear{
+	clear:both;
+}
