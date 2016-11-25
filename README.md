@@ -11,3 +11,6 @@ Implementation: JavaScript, AJAX, PHP and DBMS.
 7) Movie review application using Ruby on rails.
 8) Form display with Power animal.
 9) Display contents of Books with AJAX call using JQuery.
+10) Implement a simple RESTful web service by using PHP to display information about books in JSON.
+
+
